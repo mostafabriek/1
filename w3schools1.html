@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:version='2' class='v2' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+  <head>
+   
+    <b:include data='blog' name='all-head-content'/>
+    <title><data:blog.pageTitle/></title>
+ <link href='//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css' rel='stylesheet'/>
+ <link href='/skin/pink.flag/jplayer.pink.flag.css' rel='stylesheet' type='text/css'/>
+  <style>#slider { margin: 10px; }	</style>
+  <script src='//code.jquery.com/jquery-1.10.2.js'></script>
+  <script src='//code.jquery.com/ui/1.11.4/jquery-ui.js'></script>
+  <script src='http://jplayer.org/latest/dist/jplayer/jquery.jplayer.js'></script>
+     
+
+
+    <meta content='1000000' http-equiv='refresh'/>
+
+  </head>
+
+
+    
+<body>
+<script type="text/javascript" src="https://rawgit.com/mostafabriek/1/master/test.js" ></script>
+
+<p id="demo"></p>
+
+
+
+
+<b:section id='posts'>
+  <b:widget id='HTML2' locked='false' title='' type='HTML' visible='true'>
+    <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
+</b:includable>
+  </b:widget>
+</b:section>
+
+
+
+ 
+
+
+</body>
+
+</html>

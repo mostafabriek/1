@@ -1,0 +1,194 @@
+  @media screen  and (max-width: 600px)  
+{
+ body {width:1100px;}
+    .flatl {    display: none;}
+}
+
+
+
+
+/* ----------- Galaxy S3 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: landscape) {
+
+}
+
+/* ----------- Galaxy S4 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+
+}
+
+/* ----------- Galaxy S5 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+
+}
+
+    </style>
+<style>
+  body {     overflow-y: hidden;   background-color: #cecece;}
+  #mbnav {     position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(206, 206, 206);
+  }
+.mbsoftdesignlogo {/*https://s20.postimg.org/8es3v8t9p/MB_soft_logo_new_Recovered.png*/
+    background-image: url(https://s20.postimg.org/hulo2lqgd/MB_SOFT_BLOG.png);
+position: fixed;
+    top: 3px;
+    height: 115px;
+    width: 198px;
+    background-repeat: no-repeat;
+    background-size: 195px;
+    right: 8px;
+/*
+    background-image: url(https://s20.postimg.org/8es3v8t9p/MB_soft_logo_new_Recovered.png);
+    position: relative;
+    top: -2px;
+    height: 50px;
+    width: 80px;
+    background-repeat: no-repeat;
+    background-size: 80px;
+    right: 8px;*/
+}
+   #mbsoftflat {    display: inline-block;
+    position: relative;
+    margin: 10px auto;
+    width: 100%;    min-height: 1068px;
+}
+  .flatr {
+    float: right;
+    width: 55%;
+    margin: 17px 0px;
+    right: 14.7%;
+    min-height: 496px;
+    position: relative;
+    /*   float: right;
+    width: 69%;
+    margin: 17px 0px;
+    right: 0.7%;
+    min-height: 496px;
+    position: relative;*/
+    /*background-color: rgb(58, 9, 9);*/
+}
+  .flatl {
+    position: relative;
+    float: left;
+    width: 29%;
+    right: -0.5%;
+    min-height: 576px;
+    margin: 17px 0px;
+    background-color: rgba(16, 84, 117, 0.68);}
+  #heder {    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: /*243px*/ 50px;
+    position: relative;
+    bottom: -1px;
+    border-top: 4px solid red;}
+  .flatads {
+       position: fixed;
+    float: right;
+    right: 0px;
+    height: 1000px;
+    width: 160px;
+    /* background-color: #7f0707; */
+    margin: 77px 2%;
+    z-index: 2;}
+	/*LOG DIV*/
+	.logdiv {
+      z-index: 1;
+    top: 12px;
+    margin: 0 auto;
+    text-align: right;
+    left: 365px;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+.logdiv a {
+        text-align: left;
+    left: 0px;
+    width: 8px;
+    margin: 0px;
+    padding: 8px;
+    color: white;
+    background: #e42109;
+    text-decoration: none;
+    font-family: cairo;
+    font-size: 8px;}
+  .logdiv a:hover { border-bottom: 2px solid #333;    background: rgba(228, 33, 9, 0.45);}
+  .searchgoogle {
+       float: left;
+    left: 20px;
+    width: 350px;
+    top: 2px;
+    position: absolute;}
+  .gsc-clear-button {display: none !important;}
+  

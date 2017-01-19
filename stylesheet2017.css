@@ -1,0 +1,341 @@
+
+  body {     overflow-x: hidden;   background-color: #cecece;}
+  #mbnav {     position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(206, 206, 206);
+  }
+.mbsoftdesignlogo {/*https://s20.postimg.org/8es3v8t9p/MB_soft_logo_new_Recovered.png*/
+    background-image: url(https://s20.postimg.org/hulo2lqgd/MB_SOFT_BLOG.png);
+position: fixed;
+    top: 3px;
+    height: 115px;
+    width: 198px;
+    background-repeat: no-repeat;
+    background-size: 195px;
+    right: 8px;
+/*
+    background-image: url(https://s20.postimg.org/8es3v8t9p/MB_soft_logo_new_Recovered.png);
+    position: relative;
+    top: -2px;
+    height: 50px;
+    width: 80px;
+    background-repeat: no-repeat;
+    background-size: 80px;
+    right: 8px;*/
+}
+   #mbsoftflat {    display: inline-block;
+    position: relative;
+    margin: 10px auto;
+    width: 100%;    min-height: 1068px;
+}
+  .flatr {
+    float: right;
+    width: 55%;
+    margin: 17px 0px;
+    right: 14.7%;
+    min-height: 496px;
+    position: relative;
+    /*   float: right;
+    width: 69%;
+    margin: 17px 0px;
+    right: 0.7%;
+    min-height: 496px;
+    position: relative;*/
+    /*background-color: rgb(58, 9, 9);*/
+}
+  .flatl {
+    position: relative;
+    float: left;
+    width: 29%;
+    right: -0.5%;
+    min-height: 576px;
+    margin: 17px 0px;
+    background-color: rgba(16, 84, 117, 0.68);}
+  #heder {    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: /*243px*/ 50px;
+    position: relative;
+    bottom: -1px;
+    border-top: 4px solid red;}
+  .flatads {
+       position: fixed;
+    float: right;
+    right: 0px;
+    height: 1000px;
+    width: 160px;
+    /* background-color: #7f0707; */
+    margin: 77px 2%;
+    z-index: 2;}
+	/*LOG DIV*/
+	.logdiv {
+      z-index: 1;
+    top: 12px;
+    margin: 0 auto;
+    text-align: right;
+    left: 365px;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+.logdiv a {
+        text-align: left;
+    left: 0px;
+    width: 8px;
+    margin: 0px;
+    padding: 8px;
+    color: white;
+    background: #e42109;
+    text-decoration: none;
+    font-family: cairo;
+    font-size: 8px;}
+  .logdiv a:hover { border-bottom: 2px solid #333;    background: rgba(228, 33, 9, 0.45);}
+  .searchgoogle {
+       float: left;
+    left: 20px;
+    width: 350px;
+    top: 2px;
+    position: absolute;}
+  .gsc-clear-button {display: none !important;}
+  
+.date-header {
+    display: none;
+}
+  .post-outer { font-family: cairo;}
+ .post-title , .entry-title { z-index: 2;   position: relative;
+    margin: 40px;
+    border-right: 6px solid white;
+    width: 90%;
+    padding: 12px;
+    height: 51px;
+    color: white;
+    font-family: cairo;
+    text-align: center;
+    background-color: rgb(255, 62, 62);}
+.section {
+    margin: 11px 26px;
+}
+::selection {
+    background: #ff3329;
+    color: #FFF;
+    text-shadow: none;
+}
+
+/*-----------------------------*/
+
+ .logo a ,.logo-m-a{    position: fixed;
+    top: 8px;
+    height: 115px;
+    z-index: 2;
+    width: 198px;}
+  .adv-mobil {    width: 347px;
+    margin: 0 auto;
+    overflow: hidden;}
+  #nav-m {display: none;}
+  .MB125gef {display: none;
+    padding: 80px;}
+  .MB126gef img {    padding: 12px;}
+  .soonic {    background-image: url(https://s20.postimg.org/oegs85i25/image.png);
+    position: absolute;
+    width: 200px;
+    height: 72px;}
+  .aboutflatls {max-width: 401px;}
+  .aboutflatls a {
+    margin: 5px;
+    color: #d00d0d;   }
+  .share {    width: 531px;
+    margin: 0 auto;}
+.post-footer-line>*:last-child {
+    margin: 30px 0px;
+    width: 100%;
+}
+/*mobile phon css*/
+    @media screen and (max-width:1100px){
+    body {max-width: 600px;zoom:2;}
+    img {max-width:100% !important;height: 80%;}
+    .goog-inline-block {    margin-top: -80%;}
+    .MB125gef {display: block;}
+    .post-title {    width: 80%;}
+    .mobwidth {width:80%}
+/*navbar*/
+    #mbnav {display:none;}
+    #nav-m {display:block;}
+.mbsoftdesignlogo-m {
+    background-image: url(https://s20.postimg.org/hulo2lqgd/MB_SOFT_BLOG.png);
+    position: fixed;
+    top: 0px;
+    height: 125px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    margin: 0 auto;    z-index: 2;
+}
+.logdiv-m {  width: 303px;
+    position: relative; height:50px;
+    margin: 0 auto;}
+.logdiv-m a {
+        text-align: left;
+    left: 0px;
+    width: 8px;
+    margin: 0px;
+    padding: 8px;
+    color: white;
+    background: #e42109;
+    text-decoration: none;
+    font-family: cairo;
+    font-size: 8px;}
+  .logdiv-m a:hover { border-bottom: 2px solid #333;    background: rgba(228, 33, 9, 0.45);}
+ #heder-m {    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: /*243px*/ 50px;
+    position: relative;
+    bottom: -1px;
+    border-top: 4px solid red;}
+    .searchgoogle-m{width: 346px;
+    margin: 0 auto; }
+/*ads*/
+    .flatads {
+    display: none;
+}
+
+
+/*left*/
+  .flatl {display: none;}
+/*blog*/
+  .flatr {      width: 100%;
+    right: 0px;}
+/*main post mb*/
+  .mainpost {
+    width: 346px!important;}
+
+
+  }
+/*tablet*/
+    @media screen and (min-width:1280px){
+ img {}
+    #mbsoftflat {padding: 0 100px;}
+    .post-title {max-width: 540px !important;}
+ .post-outer {
+    overflow: hidden;}
+   .post-outer img {max-width:100% !important;height: 80%;}
+ }
+/*pc*/
+  @media screen and (min-width:1400px){
+
+    #mbsoftflat {padding: 0 ;}
+ .post-title {max-width: 740px !important;}
+  }
+  
+  /*--------------------------------------------------*/
+  
+  
+.mainpost     {    overflow: hidden;font-family: &#39;El Messiri&#39;;
+    position: relative;
+    width: 91%;
+    margin: 0 auto;
+    min-height: 507px;}
+.view {
+     width: 335px;
+    height: 234px;
+    margin: 10px;
+    float: right;
+    border: 1px solid #e52b24;
+   overflow: hidden;
+   position: relative;
+   text-align: center;
+   -webkit-box-shadow: 1px 1px 2px #e6e6e6;
+   -moz-box-shadow: 1px 1px 2px #e6e6e6;
+   box-shadow: 1px 1px 2px #e6e6e6;
+   cursor: default;
+   background: #fff url(https://s20.postimg.org/ueryrw2p9/backgroundpost.jpg) no-repeat center center; background-size: 336px;
+}
+.view .mask,.view .content {
+   width: 335px;
+    height: 234px;
+   position: absolute;
+   overflow: hidden;
+   top: 0;
+   left: 0;
+}
+.view img {
+   display: block;
+   position: relative;
+}
+.view h2 {
+   text-transform: uppercase;
+   color: #fff;
+   text-align: center;
+   position: relative;
+   font-size: 17px;
+   padding: 10px;
+   background: rgba(0, 0, 0, 0.8);
+   margin: 20px 0 0 0;
+}
+.view p {
+  /* font-family: Georgia, serif;
+   font-style: italic;
+   font-size: 12px;
+   position: relative;
+   color: #fff;
+   padding: 10px 20px 20px;
+   text-align: center;*/
+   position: relative;
+    font-size: 12px;
+    sition: relative;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+.view a.info {
+   display: inline-block;
+   text-decoration: none;
+   padding: 7px 14px;
+   background: #000;
+   color: #fff;
+   text-transform: uppercase;
+   -webkit-box-shadow: 0 0 1px #000;
+   -moz-box-shadow: 0 0 1px #000;
+   box-shadow: 0 0 1px #000;
+}
+.view a.info: hover {
+   -webkit-box-shadow: 0 0 5px #000;
+   -moz-box-shadow: 0 0 5px #000;
+   box-shadow: 0 0 5px #000;
+}
+/**/
+.view img  {
+    width: 120%;
+    margin: 0;}
+    @media screen and (max-width:1100px){
+.view img  {
+      max-width: 700px !important;    height: 234px !important; } }
+	  
+/*-------------------------------------------------*/
+
+  .social { 
+   position: relative;
+    top: 8px;
+    width: 147px;
+    height: 57px;
+    right: 0px;
+    margin: 0 auto;
+}
+.topfol span {
+    float: left;display: inline;
+margin-right: 8px;
+}
+.topfol span a {
+display: block;
+width: 41px;
+height: 45px;
+text-indent: -9999px;
+background-color: none;
+background: transparent url("https://s20.postimg.org/ka2prl19p/sofotwwigo.png") 0 0 no-repeat;
+}
+#iconFacebook1 {background-position: -106px 0px;}
+#iconTwitter1 {background-position: -54px 0px;}
+#icongoogle1 {background-position: 0px 0px;}
+	  
+	  
+  
+  

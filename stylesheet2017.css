@@ -229,7 +229,7 @@ position: fixed;
   /*--------------------------------------------------*/
   
   
-.mainpost     {    overflow: hidden;font-family: &#39;El Messiri&#39;;
+.mainpost     {    overflow: hidden;font-family: "El Messiri";
     position: relative;
     width: 91%;
     margin: 0 auto;
@@ -336,6 +336,3 @@ background: transparent url("https://s20.postimg.org/ka2prl19p/sofotwwigo.png") 
 #iconTwitter1 {background-position: -54px 0px;}
 #icongoogle1 {background-position: 0px 0px;}
 	  
-	  
-  
-  

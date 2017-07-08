@@ -1,0 +1,113 @@
+*,html,body {margin:0;padding:0}
+body {    background: url(img/back1.png) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.nav {    width: 860px;
+    height: 127px;
+    margin: 0 auto;}
+
+.content {    position: relative;    height: 667px;
+    width: 100%;}
+	
+.playon	{    width: 54%;
+    position: relative;
+    float: left;
+    min-width: 800px;
+    margin: 0px 70px;}
+.playerdiv	{      position: relative;
+    width: 100%;    z-index: 3;
+    height: 500px;
+    float: left;}
+	
+.slide {    width: 100%;
+    height: 400px;z-index:3;
+    position: relative;
+    }
+.nowplay {   position: relative;
+    width: 100%;
+    height: 200px;
+    color: white;
+    font-family: cairo;
+    font-size: 20px;
+    margin: 0 auto;left:0px}	
+.buton{background: transparent url("img/buton.png") 0 0 no-repeat;}
+.logo {background-position: -3px 0px;
+    width: 122px;
+    height: 120px;
+    left: 0px;
+    float: left;
+    background-size: 350px;}
+.Ads1 {     width: 728px;
+    height: 90px;
+    background-color: rgba(251, 249, 249, 0.33);
+    top: 21px;
+    position: absolute;
+}	
+.Ads2 {  width: 20%;
+    min-width: 300px;
+    height: 600px;
+    top: 21px;
+    position: relative;
+    float: left;
+    left: 12px;
+}	
+.logo2{       background-position: 9px 0px;
+    width: 301px;
+    height: 280px;
+    float: left;
+    left: 31px;
+    top: 50px;
+    position: relative;}
+.radio {    height: 180px;
+    width: 435px;
+    top: 112px;
+    position: relative;
+    left: 34px;
+    float: left;}	
+.helpdiv {    width: 100px;
+    height: 224px;
+    margin: 85px 2px;z-index:2;
+    position: fixed;}	.chat,.target,.help {width: 87px;height: 67px;margin:5px;}
+    .chat {    background-position: -708px -78px;}
+	.target {     background-position: -708px -158px;}
+	.help {    background-position: -708px -227px;}
+.header { 
+    width: 100%;
+    height: 100px;
+    position: relative;
+    bottom: 0px;
+}
+.ri {}
+.more {} .playlist,.playmore,.world {}
+.soicial {      width: 300px;
+    height: 30px;
+    float: left;
+    position: absolute;
+    bottom: 18px;
+    left: 10px;} .fb,.tw,.gop,.ins {width: 30px;height: 30px;margin:5px;float: left;}
+	
+	.fb {background-position: -14px -457px}
+	.tw {background-position: -58px -457px}
+	.gop {background-position: -102px -457px}
+	.ins {background-position: -147px -457px}
+	
+      @media screen and (max-width: 1100px) {
+	  .playon   { min-width: 500px;}
+	  .playerdiv { height: 584px;}
+	  .nowplay {left: 55px;}
+		  
+	  }
+.slide2 {width: 100%;
+    height: 400px;
+    background-color: rgba(236, 217, 217, 0.16);
+    position: relative;
+    margin: 10px 0;display:none}	  
+	.right8 {       position: absolute;
+    color: white;
+    font-size: 16px;
+    font-family: cairo;
+    width: 300px;
+    height: 50px;
+    margin: 16px;
+    bottom: 0px;}

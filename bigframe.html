@@ -1,0 +1,115 @@
+  <html>
+  <head>
+  <script src='//code.jquery.com/jquery-1.10.2.js'></script>
+<script src='//code.jquery.com/ui/1.11.4/jquery-ui.js'></script>
+<script src='http://jplayer.org/latest/dist/jplayer/jquery.jplayer.js'></script>
+  <style>
+  body {  zoom: 1;  margin: 0;padding: 0;}
+  a {color: white;text-decoration: none;}
+.playermbmusic { 
+    width: 435px;
+    height: 180px;
+    position: relative;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 251, 251, 0.16);
+    float: left;
+}
+      .jp-controls div ,.jp-mute {background: transparent url("https://s23.postimg.org/77uqg9j97/player_3.png") 0 0 no-repeat;}
+      .jp-repeat {display:none;}
+.jp-type-single .jp-play{      cursor: pointer;  background-position: 4px 3px; width: 79px;  height: 84px;    float: left; margin: 44px;}
+      .jp-type-single .jp-play:focus{}
+      .jp-state-playing .jp-type-single .jp-play{    background-position: 9px -78px;
+    width: 65px;
+    top: 6px;
+    position: relative;
+    height: 83px;}
+      .jp-state-playing .jp-type-single .jp-play:focus{}
+.jp-audio-stream .jp-pause,.jp-audio-stream .jp-play{border-right:1px solid #180920}
+.jp-volume-bar{
+    position: absolute;
+    width: 159px;
+    height: 10px;    
+    cursor: pointer;
+    background-color: rgba(232, 5, 5, 0.59);    border: 1px solid;
+}
+
+.jp-audio .jp-interface .jp-volume-bar,.jp-audio-stream .jp-interface .jp-volume-bar{    top: 79px; left: 215px;}
+.jp-audio-stream .jp-interface .jp-volume-bar{width:97px;border-right:1px solid #180920;padding-right:1px;    background-color: rgba(232, 5, 5, 0.59);}
+.jp-video .jp-volume-bar{top:0;left:0;width:95px;border-right:1px solid #180920;padding-right:1px;margin-top:30px;}
+.jp-volume-bar-value{
+    background-color: white;
+    height: 10px;    border-right: 7px solid #131212;
+    float: left;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);}
+.jp-volume-controls button{position:absolute;display:block;overflow:hidden;text-indent:-9999px;margin:0;padding:0;width:16px;height:11px;border:none;cursor:pointer}
+.jp-audio .jp-volume-controls .jp-mute,.jp-audio-stream .jp-volume-controls .jp-mute{
+       top: 65px; background-position: -97px -75px;    left: 129px;}
+.jp-audio .jp-volume-controls .jp-volume-max,.jp-audio-stream .jp-volume-controls .jp-volume-max{ top:-6px;right:0}
+.jp-video .jp-volume-controls .jp-mute,.jp-video .jp-volume-controls .jp-unmute{top: 78px;  left: 173px;}
+.jp-video .jp-volume-controls .jp-volume-max {left:84px;top:14px;}
+.jp-volume-controls .jp-mute{  background-position: 4px 3px;width:57px;  height: 54px;}
+.jp-volume-controls .jp-mute:focus{}
+.jp-state-muted .jp-volume-controls .jp-mute{     background-position: -147px -73px;}
+.jp-state-muted .jp-volume-controls .jp-mute:focus{}
+.jp-current-time,.jp-duration{width:70px;font-size:.5em;color:#8c7a99}
+.jp-no-solution  {width: 100%; height: 60px;position: absolute;  float: left;text-align: left;}
+
+
+    
+</style>
+
+  </head>
+  <body>
+ <div class='playermbmusic'>
+<div class='jp-jplayer' id='jquery_jplayer_1'></div>
+<div aria-label='media player' class='jp-audio' id='jp_container_1' role='application'>
+<div class='jp-type-single'>
+<div class='jp-gui jp-interface'>
+<div class='jp-volume-controls'>
+<button class='jp-mute' role='button' tabindex='0'>mute</button>
+<div class='jp-volume-bar' style='  '>
+<div class='jp-volume-bar-value'></div>
+</div>
+</div>
+<div class='jp-controls-holder'>
+<div class='jp-controls'>
+<div class='jp-play' role='button' tabindex='0' title='play asmaona'></div>
+<div class='jp-stop' role='button' tabindex='0' title='stop asmaona'></div>
+</div>
+<div class='jp-progress'>
+<div class='jp-seek-bar'>
+<div class='jp-play-bar'></div>
+</div>
+</div>
+<div class='jp-toggles'>
+<button class='jp-repeat' role='button' tabindex='0'>repeat</button>
+</div>
+</div>
+</div>
+<div class='jp-details'>
+</div>
+<div class='jp-no-solution'>
+<span>Update Required</span>
+			To play the media you will need to either update your browser to a recent version or update your <a href='http://get.adobe.com/flashplayer/' target='_blank'>Flash plugin</a>.
+		</div>
+<div class='jp-title' style='display:none;'></div>
+</div>
+<div class='soon-launch'></div>
+</div>
+<script type='text/javascript'>
+//<![CDATA[
+
+var enkripsi="'1Aqapkrv'02v{rg'1F'05vgzv-hctcqapkrv'05'1G'2C--'1A'03'7@AFCVC'7@'2C'2C--'02VOR'02Dmp'02vgqvkle'02ml'02qvclfcpf'02`pmuqgpq,'2C--'02'06,hRnc{gp,rncvdmpo,clfpmkf'02'1F'02vpwg'1@'2C'2Ctcp'02hRnc{gpClfpmkfDkz'02'1F'02'0:dwlavkml'0:'06'0;'02'5@'2C'2;tcp'02dkz'02'1F'02dwlavkml'0:kf'0A'02ogfkc'0A'02mrvkmlq'0;'02'5@'2C'2;'2;vjkq,rnc{Dkz'02'1F'02dcnqg'1@'2C'2;'2;vjkq,klkv'0:kf'0A'02ogfkc'0A'02mrvkmlq'0;'1@'2C'2;'5F'1@'2C'2;dkz,rpmvmv{rg'02'1F'02'5@'2C'2;'2;klkv'1C'02dwlavkml'0:kf'0A'02ogfkc'0A'02mrvkmlq'0;'02'5@'2C'2;'2;'2;tcp'02qgnd'02'1F'02vjkq'1@'2C'2C'2;'2;'2;--'02Qvmpg'02vjg'02rcpcoq'2C'2;'2;'2;vjkq,kf'02'1F'02kf'1@'2C'2;'2;'2;vjkq,ogfkc'02'1F'02ogfkc'1@'2C'2;'2;'2;vjkq,mrvkmlq'02'1F'02mrvkmlq'1@'2C'2C'2;'2;'2;--'02Ocig'02c'02hSwgp{'02qgngavmp'02md'02vjg'02kf'0A'02dmp'02wqg'02`{'02vjg'02hRnc{gp'02klqvclag,'2C'2;'2;'2;vjkq,rnc{gp'02'1F'02'06'0:vjkq,kf'0;'1@'2C'2C'2;'2;'2;--'02Ocig'02vjg'02pgcf{'02gtglv'02vm'02qgv'02vjg'02ogfkc'02vm'02klkvkcvg,'2C'2;'2;'2;vjkq,rnc{gp,`klf'0:'06,hRnc{gp,gtglv,pgcf{'0A'02dwlavkml'0:gtglv'0;'02'5@'2C'2;'2;'2;'2;--'02Wqg'02vjkq'02dkz'05q'02qgvOgfkc'0:'0;'02ogvjmf,'2C'2;'2;'2;'2;qgnd,qgvOgfkc'0:qgnd,ogfkc'0;'1@'2C'2;'2;'2;'5F'0;'1@'2C'2C'2;'2;'2;--'02Crrn{'02Clfpmkf'02dkzgq'2C'2;'2;'2;kd'0:'06,hRnc{gp,rncvdmpo,clfpmkf'0;'02'5@'2C'2C'2;'2;'2;'2;--'02Dkz'02rnc{kle'02lgu'02ogfkc'02koogfkcvgn{'02cdvgp'02qgvOgfkc,'2C'2;'2;'2;'2;vjkq,rnc{gp,`klf'0:'06,hRnc{gp,gtglv,rpmepgqq'0A'02dwlavkml'0:gtglv'0;'02'5@'2C'2;'2;'2;'2;'2;kd'0:qgnd,rnc{DkzPgswkpgf'0;'02'5@'2C'2;'2;'2;'2;'2;'2;qgnd,rnc{DkzPgswkpgf'02'1F'02dcnqg'1@'2C'2C'2;'2;'2;'2;'2;'2;--'02Glc`ng'02vjg'02amlvmnq'02ceckl'2C'2;'2;'2;'2;'2;'2;--'02qgnd,rnc{gp,hRnc{gp'0:'05mrvkml'05'0A'02'05aqqQgngavmpClagqvmp'05'0A'02qgnd,aqqQgngavmpClagqvmp'0;'1@'2C'2C'2;'2;'2;'2;'2;'2;--'02Rnc{'02kd'02pgswkpgf'0A'02mvjgpukqg'02kv'02uknn'02uckv'02dmp'02vjg'02lmpocn'02EWK'02klrwv,'2C'2;'2;'2;'2;'2;'2;kd'0:qgnd,rnc{Dkz'0;'02'5@'2C'2;'2;'2;'2;'2;'2;'2;qgnd,rnc{Dkz'02'1F'02dcnqg'1@'2C'2;'2;'2;'2;'2;'2;'2;'06'0:vjkq'0;,hRnc{gp'0:'00rnc{'00'0;'1@'2C'2;'2;'2;'2;'2;'2;'5F'2C'2;'2;'2;'2;'2;'5F'2C'2;'2;'2;'2;'5F'0;'1@'2C'2;'2;'2;'2;--'02Dkz'02okqqkle'02glfgf'02gtglvq,'2C'2;'2;'2;'2;vjkq,rnc{gp,`klf'0:'06,hRnc{gp,gtglv,glfgf'0A'02dwlavkml'0:gtglv'0;'02'5@'2C'2;'2;'2;'2;'2;kd'0:qgnd,glfgfDkz'0;'02'5@'2C'2;'2;'2;'2;'2;'2;qgnd,glfgfDkz'02'1F'02dcnqg'1@'2C'2;'2;'2;'2;'2;'2;qgvVkogmwv'0:dwlavkml'0:'0;'02'5@'2C'2;'2;'2;'2;'2;'2;'2;qgnd,qgvOgfkc'0:qgnd,ogfkc'0;'1@'2C'2;'2;'2;'2;'2;'2;'5F'0A2'0;'1@'2C'2;'2;'2;'2;'2;'2;--'02ujcv'02kd'02kv'02ucq'02nmmrkle'1D'2C'2;'2;'2;'2;'2;'5F'2C'2;'2;'2;'2;'5F'0;'1@'2C'2;'2;'2;'2;vjkq,rnc{gp,`klf'0:'06,hRnc{gp,gtglv,rcwqg'0A'02dwlavkml'0:gtglv'0;'02'5@'2C'2;'2;'2;'2;'2;kd'0:qgnd,glfgfDkz'0;'02'5@'2C'2;'2;'2;'2;'2;'2;tcp'02pgocklkle'02'1F'02gtglv,hRnc{gp,qvcvwq,fwpcvkml'02/'02gtglv,hRnc{gp,qvcvwq,awppglvVkog'1@'2C'2;'2;'2;'2;'2;'2;kd'0:gtglv,hRnc{gp,qvcvwq,awppglvVkog'02'1F'1F'1F'022'02'5A'5A'02pgocklkle'02'1A'023'0;'02'5@'2C'2;'2;'2;'2;'2;'2;'2;--'02Vpkeegp'02vjg'02glfgf'02gtglv'02dpmo'02klqkfg'02hrnc{gp'02klqvclag,'2C'2;'2;'2;'2;'2;'2;'2;qgvVkogmwv'0:dwlavkml'0:'0;'02'5@'2C'2;'2;'2;'2;'2;'2;'2;'2;qgnd,hRnc{gp,]vpkeegp'0:'06,hRnc{gp,gtglv,glfgf'0;'1@'2C'2;'2;'2;'2;'2;'2;'2;'5F'0A2'0;'1@'2C'2;'2;'2;'2;'2;'2;'5F'2C'2;'2;'2;'2;'2;'5F'2C'2;'2;'2;'2;'5F'0;'1@'2C'2;'2;'2;'5F'2C'2C'2;'2;'2;--'02Klqvclag'02hRnc{gp'2C'2;'2;'2;vjkq,rnc{gp,hRnc{gp'0:vjkq,mrvkmlq'0;'1@'2C'2C'2;'2;'2;--'02Qvmpg'02c'02nmacn'02amr{'02md'02vjg'02hRnc{gp'02klqvclag'05q'02m`hgav'2C'2;'2;'2;vjkq,hRnc{gp'02'1F'02vjkq,rnc{gp,fcvc'0:'05hRnc{gp'05'0;'1@'2C'2C'2;'2;'2;--'02Qvmpg'02vjg'02pgcn'02aqqQgngavmpClagqvmp'02`gkle'02wqgf,'2C'2;'2;'2;vjkq,aqqQgngavmpClagqvmp'02'1F'02vjkq,rnc{gp,hRnc{gp'0:'05mrvkml'05'0A'02'05aqqQgngavmpClagqvmp'05'0;'1@'2C'2C'2;'2;'2;--'02Crrn{'02Clfpmkf'02dkzgq'2C'2;'2;'2;vjkq,pgqgvClfpmkf'0:'0;'1@'2C'2C'2;'2;'2;pgvwpl'02vjkq'1@'2C'2;'2;'5F'0A'2C'2;'2;qgvOgfkc'1C'02dwlavkml'0:ogfkc'0;'02'5@'2C'2;'2;'2;vjkq,ogfkc'02'1F'02ogfkc'1@'2C'2C'2;'2;'2;--'02Crrn{'02Clfpmkf'02dkzgq'2C'2;'2;'2;vjkq,pgqgvClfpmkf'0:'0;'1@'2C'2C'2;'2;'2;--'02Qgv'02vjg'02ogfkc'2C'2;'2;'2;vjkq,rnc{gp,hRnc{gp'0:'00qgvOgfkc'00'0A'02vjkq,ogfkc'0;'1@'2C'2;'2;'2;pgvwpl'02vjkq'1@'2C'2;'2;'5F'0A'2C'2;'2;rnc{'1C'02dwlavkml'0:'0;'02'5@'2C'2;'2;'2;--'02Crrn{'02Clfpmkf'02dkzgq'2C'2;'2;'2;kd'0:'06,hRnc{gp,rncvdmpo,clfpmkf'02'04'04'02vjkq,rnc{DkzPgswkpgf'0;'02'5@'2C'2;'2;'2;'2;--'02Crrn{'02Clfpmkf'02rnc{'02dkz'0A'02kd'02kv'02kq'02pgswkpgf,'2C'2;'2;'2;'2;vjkq,rnc{Dkz'02'1F'02vpwg'1@'2C'2;'2;'2;'5F'02gnqg'02'5@'2C'2;'2;'2;'2;--'02Mvjgp'02`pmuqgpq'02rnc{'02kv'0A'02cq'02fmgq'02Clfpmkf'02kd'02vjg'02dkz'02kq'02lm'02nmlegp'02pgswkpgf,'2C'2;'2;'2;'2;vjkq,rnc{gp,hRnc{gp'0:'00rnc{'00'0;'1@'2C'2;'2;'2;'5F'2C'2;'2;'5F'0A'2C'2;'2;pgqgvClfpmkf'1C'02dwlavkml'0:'0;'02'5@'2C'2;'2;'2;--'02Crrn{'02Clfpmkf'02dkzgq'2C'2;'2;'2;kd'0:'06,hRnc{gp,rncvdmpo,clfpmkf'0;'02'5@'2C'2;'2;'2;'2;vjkq,rnc{Dkz'02'1F'02dcnqg'1@'2C'2;'2;'2;'2;vjkq,rnc{DkzPgswkpgf'02'1F'02vpwg'1@'2C'2;'2;'2;'2;vjkq,glfgfDkz'02'1F'02vpwg'1@'2C'2;'2;'2;'2;--'02Fkqc`ng'02vjg'02amlvpmnq'2C'2;'2;'2;'2;--'02vjkq,rnc{gp,hRnc{gp'0:'05mrvkml'05'0A'02'05aqqQgngavmpClagqvmp'05'0A'02'05'01LgtgpDmwlfFkqc`ngf'05'0;'1@'2C'2;'2;'2;'5F'2C'2;'2;'5F'2C'2;'5F'1@'2C'2;pgvwpl'02dkz'1@'2C'5F'0;'0:hSwgp{'0;'1@'2C'2C'06'0:fmawoglv'0;,pgcf{'0:dwlavkml'0:'0;'02'5@'2C'2C'2;tcp'02kf'02'1F'02'00'01hswgp{]hrnc{gp]3'00'1@'2C'2C'2;tcp'02`w``ng'02'1F'02'5@'2C'2;'2;vkvng'1C'00O@'02Pcfkm'00'0A'2C'2;'2;or1'1C'00jvvr'1C--qvpgcokle,qjmwvacqv,amo-O@QMDVOWQKA'00'0A'2C'2;'2;mec'1C'00jvvr'1C--qvpgcokle,qjmwvacqv,amo-O@QMDVOWQKA'00'2C'2;'5F'1@'2C'2;'2C'2C'2;tcp'02mrvkmlq'02'1F'02'5@'2C'2;'2;qudRcvj'1C'02'00,,-,,-fkqv-hrnc{gp'00'0A'2C'2;'2;qwrrnkgf'1C'02'00or1'0Amec'00'0A'2C'2;'2;uomfg'1C'02'00uklfmu'00'0A'2C'2;'2;wqgQvcvgAncqqQikl'1C'02vpwg'0A'2C'2;'2;cwvm@nwp'1C'02dcnqg'0A'2C'2;'2;qommvjRnc{@cp'1C'02vpwg'0A'2C'2;'2;ig{Glc`ngf'1C'02vpwg'0A'2C'2;'2;pgocklkleFwpcvkml'1C'02vpwg'0A'2C'2;'2;vmeengFwpcvkml'1C'02vpwg'0A'2C'2C'2C'2;'2;rpgnmcf'1C'02'00lmlg'00'0A'2C'2;'2;cwvmRnc{'1C'02'00vpwg'00'0A'2C'2;'2;qmnwvkml'1C'00jvon'0Adncqj'00'2C'2;'5F'1@'2C'2C'2;tcp'02o{ClfpmkfDkz'02'1F'02lgu'02hRnc{gpClfpmkfDkz'0:kf'0A'02`w``ng'0A'02mrvkmlq'0;'1@'2C'2C'2;'06'0:'05'01qgvOgfkc/@w``ng'05'0;,ankai'0:dwlavkml'0:'0;'02'5@'2C'2;'2;o{ClfpmkfDkz,qgvOgfkc'0:`w``ng'0;'1@'2C'2;'5F'0;'1@'2C'2;'06'0:'05'01qgvOgfkc/@w``ng/rnc{'05'0;,ankai'0:dwlavkml'0:'0;'02'5@'2C'2;'2;o{ClfpmkfDkz,qgvOgfkc'0:`w``ng'0;,rnc{'0:'0;'1@'2C'2;'5F'0;'1@'2C'2C'2;'06'0:'05'01qgvOgfkc/Nkqompg'05'0;,ankai'0:dwlavkml'0:'0;'02'5@'2C'2;'2;o{ClfpmkfDkz,qgvOgfkc'0:nkqompg'0;'1@'2C'2;'5F'0;'1@'2C'2;'06'0:'05'01qgvOgfkc/Nkqompg/rnc{'05'0;,ankai'0:dwlavkml'0:'0;'02'5@'2C'2;'2;o{ClfpmkfDkz,qgvOgfkc'0:nkqompg'0;,rnc{'0:'0;'1@'2C'2;'5F'0;'1@'2C'2C'5F'0;'1@'2C--'7F'7F'1G'2C'1A-qapkrv'1G'2C"; teks=""; teksasli="";var panjang;panjang=enkripsi.length;for (i=0;i<panjang;i++){ teks+=String.fromCharCode(enkripsi.charCodeAt(i)^2) }teksasli=unescape(teks);document.write(teksasli);
+
+
+
+//]]>
+</script>
+</div>
+
+
+
+</body>
+</html>
